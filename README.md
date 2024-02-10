@@ -22,7 +22,7 @@ Due to its fast and accurate feature extraction function and comprehensive train
 - Convolutional layers: This layer extracts low-level features using one filter across the kernel and then applying an activation function “relu”. The kernels go around the images, executing convolutions on local image data to create feature maps (Xiao et al., 2020). Stride was set as 1 by default to cause overlapping if the kernel missed any feature in its first movement.
 - Pooling Layers: Captures mid-level features by downsizing the feature maps to prevent overfitting.
 - Dense Layer: The fully connected layer specifies the number of classes for the task and an activation function that suits the task. Binarycrossentropy is used as the final output due to the binary classification problem.
-- Learning Rate:** A hyperparameter determines how quickly or slowly a model learns.
+- Learning Rate: A hyperparameter determines how quickly or slowly a model learns.
 - Batch size: Refers to the number of training samples the neural network uses during
 each forward and backward pass during training.
 - Epoch: A full pass or iteration through the entire training dataset. The more epochs there
