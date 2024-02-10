@@ -19,10 +19,10 @@ Image augmentation was performed on the training set to enhance the number of im
 
 Due to its fast and accurate feature extraction function and comprehensive trainable network architecture, the convolutional neural network (CNN) has successfully classified images (Lei et al., 2019). Therefore, this report will use CNN as the first choice but will be compared with the multilayer perceptron (MLP), a feed-forward neural network and CRNN, a hybrid model (CNN + RNN). The CNN, CRNN, MLP and ResNet (pre-trained CNN) models were built and fine-tuned based on the following:
 
-**- Convolutional layers:**This layer extracts low-level features using one filter across the kernel and then applying an activation function “relu”. The kernels go around the images, executing convolutions on local image data to create feature maps (Xiao et al., 2020). Stride was set as 1 by default to cause overlapping if the kernel missed any feature in its first movement.
+**- Convolutional layers:** This layer extracts low-level features using one filter across the kernel and then applying an activation function “relu”. The kernels go around the images, executing convolutions on local image data to create feature maps (Xiao et al., 2020). Stride was set as 1 by default to cause overlapping if the kernel missed any feature in its first movement.
 **- Pooling Layers:** Captures mid-level features by downsizing the feature maps to prevent overfitting.
 **- Dense Layer:** The fully connected layer specifies the number of classes for the task and an activation function that suits the task. Binarycrossentropy is used as the final output due to the binary classification problem.
-**- Learning Rate:** A hyperparameter determines how quickly or slowly a model learns.
+** - Learning Rate:** A hyperparameter determines how quickly or slowly a model learns.
 **- Batch size:** Refers to the number of training samples that the neural network uses during
 each forward and backward pass during training.
 **- Epoch:** A full pass or iteration through the entire training dataset. The more epochs there
