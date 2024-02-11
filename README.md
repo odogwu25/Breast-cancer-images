@@ -37,7 +37,9 @@ Accuracy is the general correctness of the model's predictions. Validation accur
 
 ![](https://github.com/odogwu25/Breast-cancer-images/blob/main/Images/Table%201.png)
 
+
 ![](https://github.com/odogwu25/Breast-cancer-images/blob/main/Images/Table%202.png)
+
 
 ![](https://github.com/odogwu25/Breast-cancer-images/blob/main/Images/Table%203.png)
 
