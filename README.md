@@ -43,6 +43,7 @@ Accuracy is the general correctness of the model's predictions. Validation accur
 
 ![](https://github.com/odogwu25/Breast-cancer-images/blob/main/Images/Table%203.png)
 
+
 ### ANALYSIS AND FINDINGS
 
 In the case of medical analysis, Recall and specificity are important measures to look out for because the aim is always to find a model that can correctly predict both classes. On that note, analysis will be carried out based on Validation accuracy (accuracy on test data) and ROC curve (overall model performance). The ResNet50 pre-trained model has outperformed other models with a higher validation score of 82% and an ROC value of 0.90, followed by the hybrid model CRNN2, which has a validation score of 80% and ROC value of 0.87, and the CNN 2 comes 3rd with 86% validation accuracy and ROC value of 0.86, signifying a close tie with CRNN 2. Most models have been shown to classify the positive class more accurately due to the high recall score attached to the IDC (+) class.
